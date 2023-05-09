@@ -1,2 +1,37 @@
-# nnemotion
-Neural network for recognizing human emotions
+# NNEmotion
+
+Привет, чтобы запустить проект тебе необходимо выполнить перечисленные мною действия.
+
+## Необходимые средства:
+
+1. Python3 packages
+2. Windows OS
+
+## Установка:
+
+1. Открой консоль
+2. Клонируй этот репозиторий
+   ```
+   git clone https://github.com/kovalenkosavva27/nnemotion
+   ```
+3. Разархивируй файл dataset
+   ```
+   Extract Here
+   ```
+4. Установи зависимости
+   ```
+   pip install -r requirements.txt
+   ```
+5. Запусти файлы в следующей последовательности:
+   Если хочешь создать и обучить нейронную сеть:
+   ```
+   python create_nn.py
+   ```
+   Если хочешь запустить процесс распознования эмоций:
+   ```
+   python webcam.py
+   ```
+6. Внеси необходимые изменения
+   ```
+   Удачи
+   ```
